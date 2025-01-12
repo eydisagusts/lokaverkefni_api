@@ -19,7 +19,7 @@ export type Drink = Provision & {
 export type Order = {
 	id: number;
 	email: string;
-	dish: Dish;
+	dish: Dish[];
 	drinks: Drink[];
 	count: number;
 	date: Date;
