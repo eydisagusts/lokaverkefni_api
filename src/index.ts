@@ -18,7 +18,7 @@ let orders: Order[] = [
         imageSource:
           "https://www.thecocktaildb.com/images/media/drink/d7ff7u1606855412.jpg",
         name: "Margarita",
-        price: 2500,
+        price: 25,
       },
       {
         brewer: "",
@@ -29,7 +29,7 @@ let orders: Order[] = [
         imageSource:
           "https://www.thecocktaildb.com/images/media/drink/yk70e31606771240.jpg",
         name: "Manhattan",
-        price: 2900,
+        price: 25,
       },
       {
         brewer: "",
@@ -40,7 +40,7 @@ let orders: Order[] = [
         imageSource:
           "https://www.thecocktaildb.com/images/media/drink/t1tn0s1504374905.jpg",
         name: "Dark and Stormy",
-        price: 2500,
+        price: 20,
       },
       {
         brewer: "",
@@ -51,7 +51,7 @@ let orders: Order[] = [
         imageSource:
           "https://www.thecocktaildb.com/images/media/drink/swqurw1454512730.jpg",
         name: "Irish Russian",
-        price: 2750,
+        price: 16,
       },
       {
         brewer: "",
@@ -62,7 +62,7 @@ let orders: Order[] = [
         imageSource:
           "https://www.thecocktaildb.com/images/media/drink/xsqrup1441249130.jpg",
         name: "Campari Beer",
-        price: 1900,
+        price: 16,
       },
       {
         brewer: "",
@@ -73,7 +73,7 @@ let orders: Order[] = [
         imageSource:
           "https://www.thecocktaildb.com/images/media/drink/9von5j1504388896.jpg",
         name: "Jackhammer",
-        price: 3500,
+        price: 28,
       },
       {
         brewer: "",
@@ -84,7 +84,7 @@ let orders: Order[] = [
         imageSource:
           "https://www.thecocktaildb.com/images/media/drink/yfhn371504374246.jpg",
         name: "Vampiro",
-        price: 2900,
+        price: 20,
       },   
       {
         brewer: "",
@@ -95,7 +95,7 @@ let orders: Order[] = [
         imageSource:
           "https://www.thecocktaildb.com/images/media/drink/xrsrpr1441247464.jpg",
         name: "Kurant Tea",
-        price: 1900,
+        price: 18,
       },     
       {
         brewer: "",
@@ -106,7 +106,7 @@ let orders: Order[] = [
         imageSource:
           "https://www.thecocktaildb.com/images/media/drink/3xgldt1513707271.jpg",
         name: "Gimlet",
-        price: 2500,
+        price: 20,
       },     
     ],
     dish: [
@@ -118,7 +118,7 @@ let orders: Order[] = [
         description: "Delicious Beef Wellington",
         imageSource: "https://www.themealdb.com/images/media/meals/vvpprx1487325699.jpg",
         name: "Beef Wellington",
-        price: 4800,
+        price: 50,
       },
       {
         id: "52824",
@@ -128,7 +128,7 @@ let orders: Order[] = [
         description: "Delicious Beef Sunday Roast",
         imageSource: "https://www.themealdb.com/images/media/meals/ssrrrs1503664277.jpg",
         name: "Beef Sunday Roast",
-        price: 4600,
+        price: 45,
       },
       {
         id: "52796",
@@ -138,7 +138,7 @@ let orders: Order[] = [
         description: "Delicious Chicken Alfredo Primavera",
         imageSource: "https://www.themealdb.com/images/media/meals/syqypv1486981727.jpg",
         name: "Chicken Alfredo Primavera",
-        price: 3200,
+        price: 32,
       },
       {
         id: "52819",
@@ -148,7 +148,7 @@ let orders: Order[] = [
         description: "Delicious Cajun spiced fish tacos",
         imageSource: "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg",
         name: "Cajun spiced fish tacos",
-        price: 3000,
+        price: 30,
       },
       {
         id: "52831",
@@ -158,7 +158,7 @@ let orders: Order[] = [
         description: "Delicious Chicken Karaage",
         imageSource: "https://www.themealdb.com/images/media/meals/tyywsw1505930373.jpg",
         name: "Chicken Karaage",
-        price: 2700,
+        price: 27,
       },
       {
         id: "52832",
@@ -168,7 +168,7 @@ let orders: Order[] = [
         description: "Delicious Chicken Karaage",
         imageSource: "https://www.themealdb.com/images/media/meals/qstyvs1505931190.jpg",
         name: "Coq au vin",
-        price: 2300,
+        price: 23,
       },
       {
         id: "52839",
@@ -178,7 +178,7 @@ let orders: Order[] = [
         description: "Delicious Prawn Pasta",
         imageSource: "https://www.themealdb.com/images/media/meals/usywpp1511189717.jpg",
         name: "Prawn Pasta",
-        price: 2700,
+        price: 27,
       },
       {
         id: "52840",
@@ -188,7 +188,7 @@ let orders: Order[] = [
         description: "Delicious Clam chowder",
         imageSource: "https://www.themealdb.com/images/media/meals/rvtvuw1511190488.jpg",
         name: "Clam chowder",
-        price: 1900,
+        price: 19,
       },
       {
         id: "52951",
@@ -198,7 +198,7 @@ let orders: Order[] = [
         description: "Delicious General Tso's Chicken",
         imageSource: "https://www.themealdb.com/images/media/meals/1529444113.jpg",
         name: "General Tso's Chicken",
-        price: 2700,
+        price: 27,
       },
       {
         id: "52773",
@@ -208,7 +208,7 @@ let orders: Order[] = [
         description: "Delicious Honey Teriyaki Salmon",
         imageSource: "https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg",
         name: "Honey Teriyaki Salmon",
-        price: 3500,
+        price: 35,
       },
       {
         id: "53034",
@@ -218,7 +218,7 @@ let orders: Order[] = [
         description: "Delicious Japanese Katsudon",
         imageSource: "https://www.themealdb.com/images/media/meals/d8f6qx1604182128.jpg",
         name: "Japanese Katsudon",
-        price: 3600,
+        price: 36,
       },
       {
         id: "52784",
@@ -228,7 +228,7 @@ let orders: Order[] = [
         description: "Delicious Smoky Lentil Chili with Squash",
         imageSource: "https://www.themealdb.com/images/media/meals/uwxqwy1483389553.jpg",
         name: "Smoky Lentil Chili with Squash",
-        price: 2900,
+        price: 29,
       },
     ],
     email: "gunnsteinnskula@gmail.com",
